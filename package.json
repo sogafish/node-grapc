@@ -4,8 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "buf:gen": "buf generate",
     "buf:lint": "buf lint",
-    "buf:format": "buf format",
+    "buf:format": "buf format --write",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
